@@ -148,6 +148,18 @@ body {
   width: 100%;
 }
 
+.principalb img {
+  width: 60%;
+  height: 40%;
+}
+
+.princ {
+  border: solid 1px #fff;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+
 .menu-mob {
   display: none;
 }
@@ -241,6 +253,15 @@ body {
   .col-xs-12 {
     width: 100%;
   }
+  .princ {
+    border: solid 1px #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+  }
+  .principalc {
+    flex-direction: row;
+  }
   .menu-mob {
     display: block;
     color: #FFF;
@@ -283,7 +304,7 @@ body {
     display: none;
   }
   .contain {
-    height: 100vh;
+    height: 110vh;
     background-size: cover;
   }
   .contain1 {
@@ -299,6 +320,7 @@ body {
     background-image: url(../assets/technology/background-technology-mobile.jpg);
   }
   .principal {
+    flex-wrap: wrap-reverse;
     height: 100vh;
   }
   .principal h5 {
@@ -316,7 +338,7 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Bellefair;
-    font-size: 80px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 400;
     line-height: 100px; /* 125% */
@@ -385,6 +407,16 @@ body {
   .col-sm-12 {
     width: 100%;
   }
+  .princ {
+    border: solid 1px #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    flex-direction: row;
+  }
+  .principalc {
+    flex-direction: row;
+  }
   .contain {
     height: 110vh;
     background-size: cover;
@@ -405,6 +437,13 @@ body {
     height: 13vh;
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(40.7742271423px);
+  }
+  .principal h1 {
+    font-size: 60px;
+    margin-left: 30%;
+  }
+  .principal .h1commander {
+    font-size: 2.5em;
   }
   hr {
     display: none;
@@ -448,6 +487,15 @@ body {
   .col-md-12 {
     width: 100%;
   }
+  .princ {
+    border: solid 1px #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+  }
+  .principalc {
+    flex-direction: column;
+  }
   .contain {
     height: 100vh;
     background-size: cover;
@@ -460,7 +508,7 @@ body {
   }
   .contain3 {
     background-image: url(../assets/crew/background-crew-desktop.jpg);
-    height: 120vh;
+    height: 140vh;
   }
   .contain4 {
     background-image: url(../assets/technology/background-technology-desktop.jpg);
@@ -488,10 +536,29 @@ body {
     letter-spacing: 4.725px;
     text-transform: uppercase;
   }
+  .principal .h5commander1 {
+    color: #FFF;
+    font-family: "Barlow Condensed";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+  }
   .principal h1 {
     color: #FFF;
     font-family: Bellefair;
     font-size: 150px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .principal .h1commander {
+    color: #FFF;
+    font-family: Bellefair;
+    font-size: 3.1em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
